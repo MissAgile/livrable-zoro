@@ -1,0 +1,210 @@
+:root{
+    --color-primaire:#FFF5D8;
+    --color-secondaire:#770203;
+    --color-second1:#000;
+    --color-second2:#fff;
+    --color-second3:#00000048;
+}
+
+*{
+    margin: 0;
+    padding:    5px 5px 5px 5px;
+    font-family: 'Times New Roman';
+   
+}
+/* mon body */
+body{
+    background-color:var(--color-primaire);
+    box-sizing:border-box;
+}
+/* mon header */
+.head{
+    
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom:3px dashed var(--color-secondaire);
+}
+
+.head .logo img{
+    width:200px;
+    height:50px;
+}
+.logo p{
+    padding-right:-100px;
+}
+
+
+.menu ul li{
+    list-style:none;
+    padding-right:20px;
+    display:inline;
+    justify-content:space-between;
+    padding-left:-30px;
+    padding-bottom:10px;
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+.menu .home{
+    color:red;
+    text-decoration:underline solid 2px;
+}
+
+
+.container .bg{
+
+}
+.container .last-bg{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00000080;
+    height: 30px;
+    color: white;
+    width: 98.5%;
+    position: relative;
+    top: -56px;
+    right: -8px;
+    align-items: center;
+    /* margin-right: 30px; */
+}
+
+/* debut main */
+.bg img{
+    width: 100%;
+    height: 300px;
+}
+button{
+
+    width:120px;
+    height:30px;
+    background-color: var(--color-secondaire);
+    color: var(--color-second2);
+    border-radius: 10px;
+    align-items:left;
+    padding-right: 20px;
+    border:none;
+    padding-top: 8px;
+
+}
+
+
+ i img{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: -22px;
+    left: 40px;
+}
+button p,i{
+    position:relative;
+    left:10px;
+}
+
+
+.container2 {
+    display: flex;
+    height: 25%;
+}
+.container2 .voyage{
+    width: 50%;
+    margin-top:-70px;
+   
+    margin-right:-10px;
+    position: relative;
+    top: 20px;
+    right: -50px;
+    
+}
+
+
+
+.voyage p{
+   text-align:justify;
+   width: 90%;
+}
+.voyage img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 4px;
+    bottom:-50px
+}
+.voyage h1{
+    position: relative;
+    left: 60px;
+}
+.auteur{
+    background-color: #6f6a63;
+    position: relative;
+    right: -300px;
+    top: -20px;
+    border-radius: 5px;
+    height: 500px;
+}
+.auteur .media{
+    width: 20px;
+    display: flex;
+    position: relative;
+    top: -80px;
+    right: -10px;
+}
+.auteur #anne{
+    width: 80%;
+    height: 50%;
+}
+
+.auteur .cont{
+    position: relative;
+    top: -80px;
+    
+}
+
+ .cont #fleche{
+    position: relative;
+    top: 200px;
+    right: 38px;
+}
+/* fin main */
+
+/*  début footer */
+
+i[img]{
+    width: 20px;
+    height:20px;
+}
+.feet1{
+    display:flex;
+    justify-content:space-between;
+    border-top:2px dashed  var(--color-secondaire) ;
+    padding-top: 50px;
+    
+}
+
+.feet1 li{
+    list-style:none;
+    font-size:18px;
+}
+.second i img{
+    position: relative;
+    left:-30px;
+    top:32px;
+    width:16px;
+    height:16px;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+#icontop{
+    position: relative;
+    top: -60px;
+}
+.mot {
+    color: #770203;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+
+/*  fin footer */
